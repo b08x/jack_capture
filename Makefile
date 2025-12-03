@@ -9,6 +9,8 @@ CPP=g++
 # Needed on OSX
 CFLAGS += -I/opt/local/include
 
+LDFLAGS += -L/usr/lib64/pipewire-0.3/jack
+
 OPTIMIZE=-O3
 #OPTIMIZE=-O0 -g
 
